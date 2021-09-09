@@ -6,14 +6,14 @@ Simulates transmission of a binary string through
 a binary symetric channel with error probability 
 of flipping equal to p
 '''
-def BSC(inp, p = 0.5):
+def bsc(inp, p = 0.5):
     n = len(inp)
     noise = [int(random.uniform(0, 1) < p) for _ in range(n)]
     return [(x + y) % 2 for x, y in zip(inp, noise)]
     
 
 
-def test_BSC():
+def test_bsc():
     print("Enter size of input: ")
     n = int(input())
 
