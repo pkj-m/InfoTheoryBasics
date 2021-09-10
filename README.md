@@ -15,4 +15,6 @@ Current plans:
 - [ ] One-time pads
 - [ ] Multi-process communication
 - [ x ] Bernoulli iid
+- [ ] OT (1 out of 2)
+- [ ] Bit commitment 
 
